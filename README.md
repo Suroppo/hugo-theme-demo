@@ -70,8 +70,8 @@ hugo会根据命令行中的模板名称, 在themes目录中创建同名的目�
 hugo这种模式的个人博客系统, 在一定程度上燃起了我写博客的积极性, 以前也写, 在一些博客平台上, 因为做技术的总是想搞个自己的博客, 也弄过一些开源的博客系统, 总是觉得很麻烦, 各种配置, 安装, 弄皮肤. 最后反而把写作这事情搞丢了, 真是有点本末倒置. 而hugo却可以让写作时丝般顺滑, 倒腾皮肤时随心所欲. 这个系列的文章就是在倒腾hugo的过程中的一些记忆, 前面有按hugo上的一些技术点写了些文章, 感觉自己都有点看不懂, 这次换了个角度, 从实际需求的角度写, 比如想定义首页的样式, 想定义文章页面的样式, 这样也许更能把思路理清, 也更加实用.
 
 - [x] [自定义hugo主题--概述](https://hugo.aiaide.com/post/%E8%87%AA%E5%AE%9A%E4%B9%89hugo%E4%B8%BB%E9%A2%98-%E6%A6%82%E8%BF%B0/)
-- [ ] [自定义hugo主题--从首页开始](https://hugo.aiaide.com/)
-- [ ] [自定义hugo主题--内容页](https://hugo.aiaide.com/)
+- [ ] [自定义hugo主题--从内容页开始](https://hugo.aiaide.com/)
 - [ ] [自定义hugo主题--内容列表页](https://hugo.aiaide.com/)
+- [ ] [自定义hugo主题--网站首页](https://hugo.aiaide.com/)
 - [ ] [自定义hugo主题--导航菜单](https://hugo.aiaide.com/)
 - [ ] [自定义hugo主题--标签和分类](https://hugo.aiaide.com/)
