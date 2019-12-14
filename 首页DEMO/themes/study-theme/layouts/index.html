@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网站首页</title>
+</head>
+
+<body>
+
+    <h2> 新闻列表 </h2>
+    {{ range where .Site.RegularPages "Section" "news" }}
+    <div>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+    </div>
+    {{ end }}
+
+    <h2> 博文列表 </h2>
+    {{ range where .Site.RegularPages "Section" "post" }}
+    <div>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+    </div>
+    {{ end }}
+</body>
+
+</html>
