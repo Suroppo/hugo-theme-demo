@@ -1,0 +1,55 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+theme = "study-theme"
+
+[[menu.main]]
+identifier="1"
+name="首页"
+url="/"
+weight="1"
+[[menu.main]]
+name="博文"
+url="/post"
+weight="2"
+[[menu.main]]
+name="新闻"
+url="/news"
+weight="3"
+[[menu.main]]
+name="关于"
+url="/about"
+weight="4"
+[[menu.main]]
+name="子菜单"
+weight="5"
+[[menu.main]]
+parent="博文"
+name="子菜单1"
+url=""
+weight="2"
+[[menu.main]]
+parent="博文"
+identifier="2"
+name="首页"
+url=""
+weight="1"
+
+
+[[menu.foot]]
+name="网站首页"
+url="/"
+weight="4"
+[[menu.foot]]
+name="博文集合"
+url="/post"
+weight="3"
+[[menu.foot]]
+name="新闻列表"
+url="/news"
+weight="2"
+[[menu.foot]]
+name="关于我们"
+url="/about"
+weight="1"

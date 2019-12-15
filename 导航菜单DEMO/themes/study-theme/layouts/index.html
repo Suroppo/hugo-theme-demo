@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网站首页</title>
+</head>
+
+<body>
+    <h2> 主导航菜单 </h2>
+
+    <ul>
+        {{ range .Site.Menus.main }}
+            {{if .HasChildren}}
+            <li>{{.Name}}</li>
+            <ul>
+                {{ range .Children }}
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+            {{ else }}
+            <li><a href="{{.URL}}">{{.Name}}</a></li>
+            {{end}}
+        {{ end }}
+    </ul>
+
+    <h2> 页脚导航菜单 </h2>
+
+    <ul>
+        {{ range .Site.Menus.foot }}
+        <li><a href="{{.URL}}">{{.Name}}</a></li>
+        {{ end }}
+    </ul>
+</body>
+
+</html>

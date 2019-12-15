@@ -73,5 +73,5 @@ hugo这种模式的个人博客系统, 在一定程度上燃起了我写博客�
 - [x] [自定义hugo主题--从内容页开始](https://hugo.aiaide.com/post/%E8%87%AA%E5%AE%9A%E4%B9%89hugo%E4%B8%BB%E9%A2%98-%E4%BB%8E%E5%86%85%E5%AE%B9%E9%A1%B5%E5%BC%80%E5%A7%8B/)
 - [x] [自定义hugo主题--内容列表页](https://hugo.aiaide.com/post/%E8%87%AA%E5%AE%9A%E4%B9%89hugo%E4%B8%BB%E9%A2%98-%E5%86%85%E5%AE%B9%E5%88%97%E8%A1%A8%E9%A1%B5/)
 - [x] [自定义hugo主题--网站首页](https://hugo.aiaide.com/post/%E8%87%AA%E5%AE%9A%E4%B9%89hugo%E4%B8%BB%E9%A2%98-%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5/)
-- [ ] [自定义hugo主题--导航菜单](https://hugo.aiaide.com/)
+- [x] [自定义hugo主题--导航菜单](https://hugo.aiaide.com/post/%E8%87%AA%E5%AE%9A%E4%B9%89hugo%E4%B8%BB%E9%A2%98-%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95/)
 - [ ] [自定义hugo主题--标签和分类](https://hugo.aiaide.com/)

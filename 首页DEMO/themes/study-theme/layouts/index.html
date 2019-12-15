@@ -23,6 +23,13 @@
         <a href="{{.Permalink}}">{{.Title}}</a>
     </div>
     {{ end }}
+
+    <h2> 所有的文章列表 </h2>
+    {{  range where .Site.RegularPages "Type" "page" }}
+        <div>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </div>
+    {{  end  }}
 </body>
 
 </html>
